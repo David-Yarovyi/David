@@ -5,12 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:wgth@200;500display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        color: var(--tg-theme-text-color);
+        background: var(--tg-theme-bg-color);
+    }
+
+    #main{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1{
+        margin-top: 50px ;
+        margin-bottom: 10px;
+    }
+
+    img{
+        width: 70px;
+        margin: 30px auto;
+    }
+
+    p{
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    button{
+        border: 0;
+        border-radius: 5px;
+        margin-top:50px;
+        height: 60px;
+        width: 200px;
+        font-size: 20px;
+        font-weight: 500;
+        transition: all 500ms ease;
+        color: var(--tg-theme-button-color);
+        background: var(--tg-theme-button-text-color);
+    }
+
+    button:hover{
+        background-color: var(--tg-theme-secondary-bg-color);
+    }
+</style>
 <body>
     <div class="main">
-        <h1><b>Online shop</b></h1>
+        <h1><b>Off shop</b></h1>
         <img src="https://img.icons8.com/?size=100&id=CYgFsQyxgTod&format=png&color=000000">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In cum aliquid, ex debitis consectetur a repudiandae. Est consequuntur ullam veniam, iure cum dolore, eos ex eligendi repudiandae accusantium doloribus distinctio?</p>
         <button id="but">Buy</button>
     </div>
+
+    <script src="https://telegram.org/js/telegram-web-app.js?59"></script>
 </body>
 </html>
