@@ -113,20 +113,20 @@
             let email = document.getElementById('user_email').value;
             let phone = document.getElementById('user_phone').value;
             if(name.length < 5) {
-                document.getElementById('error').innertext = 'Mistake in the name'
+                document.getElementById('error').innerText = 'Mistake in the name';
                 return;
             }
             if(email.length < 5) {
-                document.getElementById('error').innertext = 'Mistake in the email'
+                document.getElementById('error').innerText = 'Mistake in the email';
                 return;
             }
             if(phone.length < 5) {
-                document.getElementById('error').innertext = 'Mistake in the phone'
+                document.getElementById('error').innerText = 'Mistake in the phone';
                 return;
             }
 
             let data = {
-                naem : name,
+                name : name,
                 email : email,
                 phone : phone
             }
